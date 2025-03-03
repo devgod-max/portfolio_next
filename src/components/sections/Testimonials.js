@@ -3,7 +3,7 @@ import SwiperCore, {
   EffectFade,
   Grid,
   Navigation,
-  Pagination,
+  Pagination
 } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 SwiperCore.use([Pagination, Navigation, EffectFade, Autoplay, Grid]);
