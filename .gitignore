@@ -133,5 +133,5 @@ dist
 # Contentlayer
 .contentlayer/
 
-.next/
+# .next/
 package-lock.json

@@ -1,10 +1,11 @@
-import SwiperCore, {
+import SwiperCore from "swiper";
+import {
   Autoplay,
   EffectFade,
   Grid,
   Navigation,
   Pagination
-} from "swiper";
+} from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 SwiperCore.use([Pagination, Navigation, EffectFade, Autoplay, Grid]);
 const Testimonials = () => {
